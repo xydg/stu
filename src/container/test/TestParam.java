@@ -5,7 +5,7 @@ package container.test;
  * @author yuanshuchang
  * @since 2020/4/2
  */
-public class TestParam {
+public class  TestParam {
     public final int size;
     public final int loops;
 
