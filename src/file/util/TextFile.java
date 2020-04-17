@@ -18,7 +18,7 @@ public class TextFile extends ArrayList<String> {
                 String s;
                 while ((s = in.readLine()) != null) {
                     sb.append(s);
-                    sb.append("\n");
+                    sb.append("\n");//readLine()方法会删除换行符，在这里手动添加
                 }
             } finally {
                 in.close();
